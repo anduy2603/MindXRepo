@@ -1,0 +1,27 @@
+h1{
+    font-size: 30px;
+    font-weight: 90px;
+}
+
+.main-top{
+    display: flex;
+    justify-content: space-around   ;
+    width: 1005px;
+    height: 200px;
+} 
+.main {
+    color: black;
+    font-size: 18px;
+}
+.item {
+    color: green;
+    font-size: 18px;
+}
+p{
+    font-size: 18px;
+}
+
+
+
+
+
