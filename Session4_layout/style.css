@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    border: 0;
+}
+h1{
+    padding-left: 17PX;
+    
+}
+strong{
+    padding-left: 17px;
+    font-size: 20px;
+}
+.Name_store{
+    background-color:green;
+    color: white;
+    padding: 4px;
+    width: 70%;
+    
+}
+.content_title{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.content_box{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.content-item{
+    padding: 20px;
+    border: solid 1px black;
+    margin: 20px;
+    border-radius: 5px;
+}
+.contentsonny{
+     
+     font-size: 15px;
+     padding-top: 10px;
+    
+}
+.contentsonny h2{
+    margin: 0;
+}
+.prices{
+    margin-bottom: 20px;
+   padding: 5px;
+   background-color: blueviolet;
+   color: white;
+   font-size: 16px;
+   border-radius: 2px;
+}
+button{
+    padding: 10px;
+    color: aliceblue;
+    background-color: aqua;
+}
+footer{
+    padding-left: 17px;
+}
+hr{
+height: 2px;
+background-color: aqua;
+}
