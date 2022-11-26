@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          sum(3, 3);   
+        // declaration function // hoisting
+        function sum(a , b) {
+            console.log(a + b) ;
+        }
+       
+
+        // expression function//no hoisting
+        const multi = function(a, b){
+            console.log(a * b);
+        }
+        multi(2, 3);
+
+        //arrow function// no hoistion
+
+        const sub = (a, b) => {
+            console.log(a - b);
+        }
+        sub(3, 2);
+
+    </script>
+</body>
+</html>
