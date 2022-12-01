@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript HTML DOM</h2>
+    <p>Thêm một thẻ p với nội dung xin chào khối này </p>
+
+    <div id="div1">
+        <p>
+            ở đây có 2 thẻ p thêm 1 thẻ nữa dùng createElement, createTextNode, appendChild
+        </p>
+        <p id="p2">
+            Bên dưới là 1 thẻ p với nội dung xin chào 
+        </p>    
+    </div>
+
+
+    <script>
+        const d = document.createElement("p")
+
+        d.innerHTML = "Xin chào";
+        
+        // console.log(d);
+
+        // document.div.appendChild(d);
+
+        document.getElementById("div1").appendChild(d);
+        
+        </script>
+</body>
+</html>
+
+       

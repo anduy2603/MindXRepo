@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="text"> 
+        <h1>Dong 1</h1>
+        <h1>Dong 2</h1>
+    </ul>
+    <p >Bam nut de xoa dong tren</p>
+     <button id="btn" onclick="remove()">xoa</button>
+     <script>
+        function remove(){
+            var x = document.getElementById("text");
+            x.removeChild(x.firstElementChild);
+        }
+     </script>
+</body>
+</html>
